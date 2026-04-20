@@ -112,6 +112,7 @@ section:last-of-type p {
 
 #profile-link {
     display: flex;
+    width: 130px;
     margin: 0 auto;
     padding: 8px 12px;
     font-family: "Poppins", sans-serif;
@@ -128,12 +129,12 @@ section:last-of-type p {
     transition: all 0.3s ease-out;
 }
 
-button:hover {
+#profile-link:hover {
     background-color: var(--main-red);
     transition: all 0.3s ease-out;
 }
 
-button:hover svg {
+#profile-link:hover svg {
     transform: translateX(5px);
 }
 
@@ -170,7 +171,7 @@ footer div {
 
 .card-prj {
     display: grid;
-    grid-template-columns: repeat(2, minmax(200px, 450px));
+    grid-template-columns: repeat(2, minmax(200px, 650px));
     grid-template-rows: auto 1fr;
     gap: 30px;
     justify-content: center;
